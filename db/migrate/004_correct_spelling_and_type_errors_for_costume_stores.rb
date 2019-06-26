@@ -1,5 +1,5 @@
 # Create your costume_stores migration here
-class ChangeCostumeStores < ActiveRecord::Migration[4.2]
+class CorrectSpellingAndTypeErrorsForCostumeStores < ActiveRecord::Migration[4.2]
   def change
     change_column :costume_stores, :opening_time, :datetime
     change_table :costume_stores do |t|
